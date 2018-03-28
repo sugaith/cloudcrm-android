@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ListEntriesActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/searchBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextSearchBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchBox">
+
+            <TextView
+                android:id="@+id/textViewNoResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sem resultados"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textViewVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:padding="5dp"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ListView
+                android:id="@+id/listViewEntries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/searchBox"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/searchBox"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_toEndOf="@id/searchBox" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabNewEntry"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+
+            android:layout_gravity="bottom|right"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:focusable="false"
+            android:longClickable="true"
+            android:nestedScrollingEnabled="false"
+            android:padding="15dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_plus"
+            android:textAlignment="center"
+            app:fabSize="normal" />
+
+        <TextView
+            android:id="@+id/qmap_2"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:paddingLeft="10dp"
+            android:text="Adicionar"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

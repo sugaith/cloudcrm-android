@@ -1,0 +1,168 @@
+<resources>
+    <string name="progress_login">Loading..</string>
+    <string name="download_all">Download all</string>
+    <string name="downloading">Downloading</string>
+    <string name="installed">Installed</string>
+    <string name="not_installed">Not installed</string>
+    <string name="install_question">Do you want to install %1$s?</string>
+    <string name="installing_app">Downloading %1$s</string>
+    <string name="successfully_sync">Sucessfully synced</string>
+    <string name="title_activity_lista_clientes">ListaClientesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_cadastro_cliente">Registro de cliente</string>
+    <string name="title_activity_prospects">Prospectos</string>
+    <string name="salvar">Save changes</string>
+    <string name="usuario_nao_valido">Invalid user</string>
+    <string name="entrar">Login</string>
+    <string name="password">Password</string>
+    <string name="action_atualizar">Update</string>
+    <string name="action_fechar_usuario">Logout</string>
+    <string name="action_tirar_foto">Take pic</string>
+    <string name="baixar_dados">Download data</string>
+    <string name="create_shortcut">Create shortcut</string>
+    <string name="gps_default_text">GPS</string>
+    <string name="payment_default_text">Realizar Pagamento</string>
+    <string name="sign_up_form_title">Sign Up Form</string>
+    <string name="sign_up_progress">Signing up..</string>
+    <string name="invalid_email">Error: invalid email</string>
+    <string name="email_required">Error: email required</string>
+    <string name="cpf_invalido">Error: CPF ou CNPF nao valido</string>
+    <string name="send_email_now">Send email!</string>
+    <string name="send_to_email">Send to email</string>
+    <string name="err_max_val">"Max: "</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading..</string>
+    <string name="login_in">Loggin in..</string>
+    <string name="downloading_assets">Downloading assets</string>
+    <string name="updated">Updated</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full name</string>
+    <string name="document">Document</string>
+    <string name="user">User</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_name">Please enter your name</string>
+    <string name="please_email">Please enter a valid email</string>
+    <string name="please_number">Please enter a valid number</string>
+    <string name="please_password">Please enter at least 6 character password</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="email_sent">Email sent!</string>
+    <string name="enter_valid_email">Enter a valid email</string>
+    <string name="selecionar">- Selecionar -</string>
+    <string name="digite_valor">- Digite valor -</string>
+    <string name="sel_data">- Data -</string>
+    <string name="completar_data">- Data -</string>
+    <string name="not_valid">Not valid</string>
+    <string name="select_option">Select option</string>
+    <string name="create_poligon">Create polygon</string>
+    <string name="wo_polygon">- Sem poligono -</string>
+    <string name="view_notif">Visualizar</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="delete_cache_at_start_up">Delete cache at startup</string>
+    <string name="always_clean_temporary_files">Delete temporary files at startup.</string>
+    <string name="this_will_use_more_bandwidth">This will use more bandwith</string>
+    <string name="hd_images">HD Images</string>
+    <string name="wait_for_image">Wait..</string>
+
+
+    <string name="BluetoothDisconnected">MPÓS DESCONNECTED</string>
+    <string name="BluetoothConnected">MPÓS CONNECTED</string>
+    <string name="startPayment">START TRANSACTION</string>
+    <string name="waitingTransaction">WAITING TRANSACTION</string>
+    <string name="BluetoothErrored">Bluetooth Error: %s</string>
+    <string name="OperationCompleted">OPERATION COMPLETED</string>
+    <string name="FinishTransactionToMachine">TRANSACTION SUCCESS FINISHED!</string>
+    <string name="TableUpdated">TABLE UPDATED</string>
+    <string name="OperationCancelled">OPERATION CANCELLED</string>
+    <string name="pay">Pay!</string>
+    <string name="Error">Error: %s</string>
+    <string name="update">UPDATE TABLES</string>
+    <string name="wait">WAIT...</string>
+    <string name="MPOS_BLUETOOTH">It is necessary that your bluetooth is enabled to perform this operation.</string>
+    <string name="aviso_validacao">Please enter a value to continue. </string>
+    <string name="aviso_cliente">input a client name to continue</string>
+    <string name="paymentAproved">APPROVED #</string>
+    <string name="paymentRecused">REFUSED #</string>
+    <string name="paid">APPROVED</string>
+    <string name="refused">REFUSED</string>
+    <string name="aviso_internet">Unable to connect to server.</string>
+    <string name="aviso_error_cliente">You have an error in the transaction, check the customer data or Value filled out.</string>
+    <string name="recusado_aviso">Contact your card carrier</string>
+
+</resources>

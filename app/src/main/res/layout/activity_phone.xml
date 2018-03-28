@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.cloudcrm.tech.cloudcrm.activities.PhoneActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o numero com DDD"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14sp"
+            android:text="+XX (XX) XXXX-XXXX"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <Spinner
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/phoneButton"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/phoneButton"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/phoneButton"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/phoneButton"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/phoneButton"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/phoneButton"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/phoneButton"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b8"
+                style="@style/phoneButton"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b9"
+                style="@style/phoneButton"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/bb"
+                style="@style/phoneButton"
+                android:text="&lt;" />
+
+            <Button
+                android:id="@+id/b0"
+                style="@style/phoneButton"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/bok"
+                style="@style/phoneButton"
+                android:text="OK" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

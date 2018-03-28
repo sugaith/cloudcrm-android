@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloudCRM</string>
+
+        <string name="BluetoothDisconnected">Bluetooth Disconnected</string>
+        <string name="BluetoothErrored">Bluetooth Error: %s</string>
+        <string name="OperationCompleted">Operation Completed</string>
+        <string name="FinishTransactionToMachine">TRANSACAO REALIZADA!</string>
+        <string name="TableUpdated">Tables Updated</string>
+        <string name="OperationCancelled">Operation Cancelled</string>
+        <string name="pay">Pay!</string>
+        <string name="Error">Error: %s</string>
+        <string name="update">Update Tables</string>
+
+</resources>

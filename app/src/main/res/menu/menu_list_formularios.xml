@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/action_atualizar"
+        android:icon="@mipmap/ic_refresh"
+        android:id="@+id/action_update"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Fazer backup"
+        android:icon="@mipmap/ic_refresh"
+        android:id="@+id/action_backup"/>
+
+    <item
+        android:title="@string/action_atualizar"
+        android:icon="@mipmap/ic_refresh"
+
+        android:id="@+id/action_atualizar"/>
+
+    <item
+        android:title="@string/create_shortcut"
+        android:icon="@mipmap/ic_refresh"
+
+        android:id="@+id/action_criar_atalho"/>
+    <group>
+    <item
+        android:title="@string/baixar_dados"
+        android:id="@+id/action_download_dados"/>
+
+        <item
+            android:title="@string/settings"
+            android:id="@+id/notifs"/>
+    </group>
+
+    <item
+        android:title="@string/action_fechar_usuario"
+        android:id="@+id/action_logout"/>
+
+</menu>

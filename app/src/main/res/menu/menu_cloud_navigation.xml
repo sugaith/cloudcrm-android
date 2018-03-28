@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/refresh_button"
+        android:title="@string/app_name"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_refresh"/>
+    <item
+        android:id="@+id/plus_button"
+        android:title="@string/app_name"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_plus"/>
+    <item
+        android:id="@+id/logout_button"
+        android:title="Fechar usuario"
+        android:icon="@mipmap/ic_user_icon"
+        app:showAsAction="never"/>
+</menu>

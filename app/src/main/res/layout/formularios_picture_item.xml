@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/cloud_crm_formulario_item_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        style="@style/CloudCRMLabel"
+        android:id="@+id/label" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp">
+
+        <Button
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="Baixar imagem"
+            android:id="@+id/buttonImageDownload"
+            android:layout_gravity="center"
+            style="@style/CloudCRMButton"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/crm_dotted_pic">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:id="@+id/imageView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/buttonDownloadImage"
+            android:paddingRight="10dp"
+            android:id="@+id/downloading">
+
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:visibility="visible"
+                android:theme="@style/ProgressBar"
+                android:layout_weight="0"
+                android:indeterminateDrawable="@drawable/progress_circle"
+                android:progressDrawable="@drawable/progress_circle"
+                android:indeterminate="false"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:minHeight="40dp"
+                android:mirrorForRtl="false"
+                android:maxWidth="8dip"
+                android:soundEffectsEnabled="false"
+                android:saveEnabled="false" />
+
+            <TextView
+                android:text="SEM FOTO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeholder"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:textColorLink="@android:color/white"
+                android:textColor="@android:color/white"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            android:id="@+id/delete"
+            android:layout_gravity="right" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_tirar_foto"
+        style="@style/CloudCRMButton"
+        android:id="@+id/button" />
+
+</LinearLayout>

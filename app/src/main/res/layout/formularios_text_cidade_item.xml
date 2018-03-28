@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/cloud_crm_formulario_item_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Label"
+        android:id="@+id/label" />
+
+    <AutoCompleteTextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+    <Button
+        android:id="@+id/button"
+        style="@style/CloudCRMButton"
+        android:text="- Escolher cidade -"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

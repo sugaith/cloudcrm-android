@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.cloudcrm.tech.cloudcrm.crm.activities.ListaClientesActivity">
+    <item
+        android:id="@+id/action_visita"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@mipmap/ic_visita"
+        app:showAsAction="always" />
+</menu>

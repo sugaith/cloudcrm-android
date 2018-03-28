@@ -1,0 +1,12 @@
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="@dimen/cloud_crm_button_border_radius" />
+
+    <solid android:color="@color/colorDanger" />
+
+    <stroke
+        android:width="@dimen/cloud_crm_button_border_width"
+        android:color="@color/colorDanger" />
+</shape>

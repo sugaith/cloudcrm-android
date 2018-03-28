@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4b4b4b</color>
+    <color name="colorPrimaryDark">#2e2e2e</color>
+    <color name="colorAccent">#f18a15</color>
+    <color name="colorDanger">#f44336</color>
+    <color name="colorWarning">#ffa000</color>
+    <color name="colorInfo">#00b8d4</color>
+    <color name="colorSuccess">#0f8315</color>
+    <color name="colorGray">#424242</color>
+    <color name="colorControl">#455a64</color>
+    <color name="colorRequired">#ffe7e7</color>
+    <color name="colorMapStroke">#df000000</color>
+    <color name="colorMapFill">#6f000000</color>
+    <color name="appbar">#33000000</color>
+</resources>
